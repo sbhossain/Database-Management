@@ -1,0 +1,208 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CubeData</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>fWSk6y+nC8Yx2sCwletWmgozxIc=7/26/2021 1:45:20 AM7/26/2021 1:45:20 AM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2019</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>SfZIzW/vqHaDpQIluZgm/Gmdgi8=7/26/2021 1:47:33 AM7/26/2021 1:47:31 AM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2019</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>uMVIUHPJGEGWXBwolruN8OxbTss=7/26/2021 1:49:07 AM7/26/2021 1:49:07 AM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Dw0YFpCrHPNCJqC1I7bdqHR5YQ0=7/26/2021 1:55:01 AM7/26/2021 1:49:57 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wKNJV6zUwBeT4/0zqSNZQDCpYec=7/26/2021 1:55:01 AM7/26/2021 1:55:01 AM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>arDcF78DGgq9BHWjiETcbhohdvU=7/26/2021 2:01:10 AM7/26/2021 2:01:10 AM</TimeStamp>
+        <ID>
+          <String>Dim Account</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PEf3iSns3dAHHSDdaYVPxo/P5dc=7/26/2021 2:03:24 AM7/26/2021 2:03:24 AM</TimeStamp>
+        <ID>
+          <String>Dim Currency</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>faO/LIijNHwBeja0PlaUSM2LlzI=7/26/2021 2:03:45 AM7/26/2021 2:03:45 AM</TimeStamp>
+        <ID>
+          <String>Dim Department Group</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ot9HLAGOIlOaIlZd5MnQ6Us4srs=7/26/2021 2:04:20 AM7/26/2021 2:04:19 AM</TimeStamp>
+        <ID>
+          <String>Dim Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ong+FYECEkDqY/8ilD6Ir8eKuu4=7/26/2021 2:05:29 AM7/26/2021 2:05:29 AM</TimeStamp>
+        <ID>
+          <String>Dim Geography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LxTcnfymNGR+m3aeCQbrhZm1HrE=7/26/2021 2:06:03 AM7/26/2021 2:06:03 AM</TimeStamp>
+        <ID>
+          <String>Dim Organization</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AUSwsXorfK6RUu0ebAt3O0M8F20=7/26/2021 2:06:24 AM7/26/2021 2:06:24 AM</TimeStamp>
+        <ID>
+          <String>Dim Product Category</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SQvjN63YNaoQcc0pCS2hi3u84BI=7/26/2021 2:06:44 AM7/26/2021 2:06:44 AM</TimeStamp>
+        <ID>
+          <String>Dim Product Subcategory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Vz7miuk+uGzIrSEoFNxBXjBcCts=7/26/2021 2:07:02 AM7/26/2021 2:07:01 AM</TimeStamp>
+        <ID>
+          <String>Dim Promotion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ECA6/fPHsutBLs/LcW0+2dzlK4A=7/26/2021 2:07:23 AM7/26/2021 2:07:23 AM</TimeStamp>
+        <ID>
+          <String>Dim Reseller</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TSR7eVAGCFQcXI6LsqA/s69m38M=7/26/2021 2:07:42 AM7/26/2021 2:07:42 AM</TimeStamp>
+        <ID>
+          <String>Dim Sales Reason</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>z0ubou8Xfm3uoX665mzyjveQ2xo=7/26/2021 2:08:04 AM7/26/2021 2:08:04 AM</TimeStamp>
+        <ID>
+          <String>Dim Sales Territory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cwxnAAh36Ef425cAHZQAjFCSHzU=7/26/2021 2:08:58 AM7/26/2021 2:08:58 AM</TimeStamp>
+        <ID>
+          <String>Dim Scenario</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>E8PXFCBOioznOXua0Q3jHNV4m80=7/26/2021 2:14:18 AM7/26/2021 2:14:17 AM</TimeStamp>
+        <ID>
+          <String>Fact Call Center</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Pfyx/qYQuTNr/aWAW0hMTLc4b2c=7/26/2021 2:14:19 AM7/26/2021 2:14:17 AM</TimeStamp>
+        <ID>
+          <String>Fact Additional International Product Description</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>p+m5LiZKYpGJxHYHJu0D9v5283I=7/26/2021 2:14:19 AM7/26/2021 2:14:17 AM</TimeStamp>
+        <ID>
+          <String>Fact Internet Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pG4Imm+7RZV0MGF3oCVQZcyaWyY=7/26/2021 2:14:19 AM7/26/2021 2:14:17 AM</TimeStamp>
+        <ID>
+          <String>Fact Reseller Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/Qwqz0Aqt9+LaTWR5o94LScnfWc=7/26/2021 2:14:19 AM7/26/2021 2:14:17 AM</TimeStamp>
+        <ID>
+          <String>Fact Survey Response</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rb04fWRxnh9z2ZQNAKedrgGdwD0=7/26/2021 2:14:19 AM7/26/2021 2:14:17 AM</TimeStamp>
+        <ID>
+          <String>Prospective Buyer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>15jNjG6ghGxr19+2vUa3+0lL82s=7/26/2021 2:14:20 AM7/26/2021 2:14:17 AMmPJ4etLnZNKfsmpuHxpMFhUodv0=7/26/2021 2:14:19 AM7/26/2021 2:14:17 AM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2019</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>lSdwTrvwvqnRAp0++evsWsRFVf4=7/26/2021 1:42:21 AM7/26/2021 1:42:18 AM</TimeStamp>
+      <ID>
+        <String>CubeData</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-07-25T16:15:12.803333Z</LastDeployed>
+</DeploymentSnapshot>
